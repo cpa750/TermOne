@@ -1,0 +1,19 @@
+Legal:
+    - car_price - Legal variable name
+    - apple - also legal
+    - ItemName - Also a legal name
+    - itemname - Legal - although it is not the same as ItemName
+    - sign_in_credentials - Also legal
+
+Illegal:
+    - 1stVariable - Illegal as you cannot have digits in a variable name
+    - int - Illegal as you cannot have reserved keywords as variable names
+    - class - Illegal, for the same reason
+
+Good names:
+    - GRAVITY_CONSTANT - good convention to use to name constants, should be descriptive
+    - item_price - good convention for naming variables, also descriptive name
+
+Bad Names:
+    - x - bad convention, not descriptive at all
+    - i - same reason, should only be used as a throwaway variable for loops
