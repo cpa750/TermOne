@@ -1,0 +1,30 @@
+print pick a number between one and one hundred
+
+print I will now attempt to guess it
+
+person_input = None
+
+low = 1
+high = 101
+
+while person_input != "correct"
+    guess = random.randint(low, high)
+    print my guess is: guess
+
+    person_input = input is my guess lower or higher, or correct?
+
+    if person_input == "lower":
+        high = guess
+
+    elif person_input == "higher":
+        low = guess
+    
+    elif person_input == "correct":
+        print I guessed it!
+    
+    else:
+        print check your spelling
+    
+    guess = randint(low, high)
+
+
