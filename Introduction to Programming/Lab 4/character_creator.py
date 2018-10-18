@@ -1,17 +1,16 @@
 class Character():
+    # TODO: add getters and setters for self.attributes
 
     def __init__(self):
         self.points = 50
         self.attributes = {"Strength": 0, "Perception": 0, "Endurance": 0, "Charisma": 0,
                            "Intelligence": 0, "Agility": 0, "Luck": 0}
         self.name = None
-
-    def __name__(self):
-        return self.name
     
     def set_name(self, new_name):
         self.name = new_name
-    
+        self.__name__ = self.name
+
     def add_points(self, attribute, amount):
         self.attributes[attribute] += amount
         self.points -= amount
