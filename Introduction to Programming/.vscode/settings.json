@@ -1,4 +1,4 @@
 {
     "python.linting.pylintEnabled": false,
-    "python.pythonPath": "/home/cian/.local/share/virtualenvs/Introduction_to_Programming-GFJTQX96/bin/python"
+    "python.pythonPath": "/home/cian/.virtualenvs/Introduction_to_Programming-GFJTQX96/bin/python"
 }
