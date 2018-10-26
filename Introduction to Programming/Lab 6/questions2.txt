@@ -1,0 +1,7 @@
+What is the function to open a file?#open#10
+Which opening mode opens a file in binary mode?#b#15
+What is the exception when a key does not exist in a dictionary?#KeyError#40
+The ______ module allows you to persistently store many kinds of objects.#shelve#20
+What keyword should you use with opening files to keep good practice?#with#50
+The with keyword automatically calls what function on your file?#close#30
+Which error handling keyword ensures a block of code will always run?#finally#15
