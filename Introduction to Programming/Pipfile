@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 random-word = "*"
+requests = "*"
 
 [dev-packages]
 
