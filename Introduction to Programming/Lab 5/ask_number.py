@@ -8,4 +8,7 @@ def ask_number(question, low, high, step=1):
         except ValueError:
             print("Integers only!")
 
+    print(response)
     return response
+
+ask_number("What is the number >> ", 0, 10, 2)
